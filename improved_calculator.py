@@ -1,5 +1,5 @@
 while True:
-  print("Initializing calculator... Type 'quit' to exit")
+  print("Type an 'operator' or 'quit' to exit")
   operator = str(input("Enter an operator (+, -, *, /): "))
   if operator == "quit":
     print("Calculator turned off")
